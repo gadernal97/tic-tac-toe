@@ -1,0 +1,80 @@
+body{
+    background:linear-gradient(135deg,rgb(192, 10, 192),rgb(192, 26, 192));
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.wrapper{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container{
+    position: relative;
+    width: 70vmin;
+    height:70vmin;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 1vmin;    
+}
+.button-option{
+    width: 22vmin;
+    height: 22vmin;
+    border-radius: 10px;
+    border:none;
+    font-size: 2em;
+}
+#restar{
+    display: flex;
+    align-items: center;
+    padding: .75em;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(197, 21, 197);
+    color: white;
+    margin: auto;
+}
+#restar:hover{
+  transform: translate(-2px);
+}
+.poppup{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background:linear-gradient(135deg,rgb(192, 10, 192),rgb(192, 26, 192));
+    width: 80vmin;
+    height: 80vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    text-align: center;
+
+}
+#message{
+color: rgb(235, 215, 215);
+font-family: 'Courier New', Courier, monospace;
+font-size: 5em;
+font-weight: bold;
+
+}
+#newGame{
+    
+    padding: .75em;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(207, 19, 231);
+    color: white;
+    margin: auto;
+}
+#newGame:hover{
+    transform: translateY(-2px);
+}
+.hide{
+    display: none;
+}
